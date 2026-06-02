@@ -33,9 +33,3 @@ jobs:
           tags: |
             ghcr.io/wkalter/skills-publish-docker-images/stackoverflown:main
             ghcr.io/wkalter/skills-publish-docker-images/stackoverflown:${{ github.sha }}
-
-
-      # - name: Build and push Docker image
-      #   run: |
-      #     docker build . --tag ghcr.io/wkalter/skills-publish-docker-images/stackoverflown:main
-      #     docker push ghcr.io/wkalter/skills-publish-docker-images/stackoverflown:main
